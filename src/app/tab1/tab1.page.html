@@ -1,0 +1,36 @@
+<ion-content>
+  <div class="header"></div>
+
+  <ion-card>
+    <ion-card-header>
+      <h2>UniStore</h2>
+    </ion-card-header>
+    <ion-card-content class="transparent-bg">
+      <ion-list>
+        <ion-item>
+          <ion-label position="floating">Usuário ou e-mail</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Senha</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-button expand="full" [routerLink]="['/tabs/tab2']"
+            >Login</ion-button
+          >
+        </ion-item>
+
+        <ion-item lines="none" class="forgot-password">
+          <ion-label class="forgot-password-label">Esqueceu a senha?</ion-label>
+        </ion-item>
+      </ion-list>
+
+      <div class="signup-link">
+        <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

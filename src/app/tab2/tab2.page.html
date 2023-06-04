@@ -1,0 +1,145 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title> UNISTORE </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="search-bar">
+    <ion-input
+      class="custom-input"
+      placeholder="O que você deseja?"
+    ></ion-input>
+
+    <ion-icon name="search-outline"></ion-icon>
+  </div>
+
+  <ion-slides pager="true" [options]="slideOptions">
+    <ion-slide>
+      <img
+        src="https://github.com/gabrielarosa307/fotos/blob/main/meninas.jpeg?raw=true"
+        alt="Carousel Image 1"
+        class="carousel-image"
+      />
+    </ion-slide>
+    <ion-slide>
+      <img
+        src="https://github.com/gabrielarosa307/fotos/blob/main/meninas.jpeg?raw=true"
+        alt="Carousel Image 2"
+        class="carousel-image"
+      />
+    </ion-slide>
+    <ion-slide>
+      <img
+        src="https://github.com/gabrielarosa307/fotos/blob/main/meninas.jpeg?raw=true"
+        alt="Carousel Image 3"
+        class="carousel-image"
+      />
+    </ion-slide>
+  </ion-slides>
+
+  <ion-card style="--background: black">
+    <ion-card-header>
+      <ion-title>Categories</ion-title>
+      <ion-button fill="clear" slot="end">Show All</ion-button>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="4">
+            <ion-card>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-card-content>
+                <ion-card-title>Acessórios</ion-card-title>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="4">
+            <ion-card>
+              <ion-icon name="shirt-outline"></ion-icon>
+              <ion-card-content>
+                <ion-card-title>Blusas</ion-card-title>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="4">
+            <ion-card>
+              <ion-icon name="shirt-outline"></ion-icon>
+              <ion-card-content>
+                <ion-card-title>Calças</ion-card-title>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card style="--background: black">
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <ion-card>
+              <img
+                src="https://github.com/gabrielarosa307/fotos/blob/main/meninas.jpeg?raw=true"
+                alt="Product Image 1"
+                class="product-image"
+              />
+              <ion-card-header>
+                <ion-card-title>Camisa oficial</ion-card-title>
+              </ion-card-header>
+              <ion-card-content> R$49,99 </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card>
+              <img
+                src="https://github.com/gabrielarosa307/fotos/blob/main/produto2.jpeg?raw=true"
+                alt="Product Image 2"
+                class="product-image"
+              />
+              <ion-card-header>
+                <ion-card-title>Xícaras</ion-card-title>
+              </ion-card-header>
+              <ion-card-content> R$14,99 </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="6">
+            <ion-card>
+              <img
+                src="https://github.com/gabrielarosa307/fotos/blob/main/produto3.jpeg?raw=true"
+                alt="Product Image 1"
+                class="product-image"
+              />
+              <ion-card-header>
+                <ion-card-title>Cardenetas</ion-card-title>
+              </ion-card-header>
+              <ion-card-content> R$15,99 </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card>
+              <img
+                src="https://github.com/gabrielarosa307/fotos/blob/main/produto4.jpeg?raw=true"
+                alt="Product Image 2"
+                class="product-image"
+              />
+              <ion-card-header>
+                <ion-card-title>Chaveiros</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>R$10,99</ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+  ></ion-content
+>

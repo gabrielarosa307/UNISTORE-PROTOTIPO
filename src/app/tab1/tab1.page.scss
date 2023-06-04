@@ -1,0 +1,54 @@
+ion-content {
+  height: 120vh;
+}
+
+.header {
+  padding: 1rem 0.5rem;
+  background: url('https://github.com/gabrielarosa307/fotos/blob/main/fundo1.jpeg?raw=true');
+  background-position: center bottom;
+  background-size: cover;
+  height: 45vh;
+  max-width: 100%;
+}
+
+ion-card {
+  width: 100%;
+  background: linear-gradient(to bottom, black, white);
+  border-radius: 30px;
+  padding: 5px 0px;
+  position: absolute;
+  top: 250px;
+  margin: auto;
+}
+
+ion-card-header {
+  text-align: center;
+}
+
+ion-card-content {
+  background-color: transparent !important;
+  ion-item {
+    --color: black;
+    ion-button {
+      width: 100%;
+    }
+  }
+}
+
+.forgot-password-label {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.transparent-bg {
+  --ion-background-color: transparent;
+}
+
+.signup-link {
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+  a {
+    font-weight: bolder;
+  }
+}
